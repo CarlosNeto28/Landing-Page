@@ -1,0 +1,229 @@
+@media screen and (max-width: 758px) {
+    /* For mobile phones: */
+    *{
+
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font:1.2rem;
+        font-family: 'Joan', serif;
+        max-width: 380px;
+        
+        
+    }
+    body{
+        
+        height: 2500px;
+    }
+    .background{
+   
+       width: 800px;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        opacity: 1;
+        height: 1100px;
+        /* position:relative; */
+       
+        
+    }
+    
+    
+    .Home{
+        margin-top: 70px;
+        width:90%;
+        
+        background-color: #BA3636;
+        opacity: 1;
+        height: 400px;
+        display: flex;
+        padding:15px ;
+        left: 20px;
+     
+      
+       border-radius: 30px;
+       position:absolute;
+       
+       
+        
+      
+    
+    }
+    
+    .title1{
+        font-size: 26px;
+        text-shadow: 1px -1px 16px white;
+        color: rgba(255, 255, 255, 0.322);
+    }
+    #sub{
+    
+    font-size:12px ;
+      text-shadow: 1px -1px 16px white;
+        color: rgba(255, 255, 255, 0.322);
+    }
+    .icons{
+        width: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+   
+    padding-top: 10px;
+    }
+    .icon{
+        width: 40px;
+        padding-right: 15px;
+    }
+    .text2{
+    
+        width: 200px;
+        padding-top: 50px;
+        font-size: 20px;
+        opacity: 1;
+        color: black;
+        
+    
+    }
+#eu{
+  
+    width: 86px;
+    height: 115px;
+    border-radius: 100%;
+    transform: translateY(-40%);
+    position: absolute;
+    
+}
+.ling{
+    
+    width: 200px;
+    top: 600px;
+    height: 70px;
+    background-color: #1175F0;
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    transform: translateX(50%);
+    color: white;
+  
+    text-shadow: 1px -1px 16px white;
+    color: white;
+    border-radius: 10px;
+    }
+.carousel{
+position: absolute;
+left: 30px;
+width: 310px;
+top: 700px;
+
+transform: translateX(5%);
+
+}
+.about{
+    position: absolute;
+    top:1000px;
+    border-radius: 20px;
+    left: 0px;
+    transform: translateX(5%);
+}
+.about-title{
+    text-align: center;
+    text-shadow: 1px -1px 16px white;
+    color: white;
+    border-bottom: 2px solid #083770;
+    
+    
+}
+.about-content{
+
+height: 500px;
+width: 350px;
+border-radius:20px ;
+display: flex;
+flex-direction: column;
+position: relative;
+justify-content: space-around;
+align-items: center;
+left: 5px;
+
+
+
+}
+.hobbies{
+width: 250px;
+font-size: 20px;
+align-items: center;
+color: white;
+text-shadow: 1px -1px 8px white;
+display: flex;
+justify-content: space-around;
+border-radius: 15px;
+
+border-bottom: 7px solid #083770;
+
+
+}
+.infos{
+
+    position: absolute;
+    top:1600px;
+    border-radius: 20px;
+    justify-content: flex-end;
+    display: flex;
+    width: 350px;
+    left: 5px;
+    transform: translateX(5%);
+    background-color: #482566;
+    
+
+}
+.info-content{
+    height: 600px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+
+}
+.info-title{
+
+align-self: center;
+padding-bottom: 10px;
+border-bottom: 1px solid #C59AEA;
+margin-bottom: 50px;
+color: #482566;
+width: 200px;
+text-align: center;
+
+
+}
+
+.info-text{
+
+padding: 16px;
+border-bottom:2px solid #C59AEA
+}
+.obrigado{
+    position: absolute;
+    top: 2390px;
+    background-color: #482566;
+    height: 100px;
+    width: 340px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 13px;
+    border-radius: 20px;
+    left: 10px;
+    color: white;
+text-shadow: 1px -1px 8px white;
+transform: translateX(5%);
+    
+}
+}

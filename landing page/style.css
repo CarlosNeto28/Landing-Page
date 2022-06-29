@@ -21,6 +21,8 @@ body{
     height: 1100px;
     
 }
+
+
 .Home{
     margin-top: 100px;
     width: 90%;
@@ -29,12 +31,13 @@ body{
     height: 800px;
     display: flex;
     padding:100px ;
-   
+    transform: translateX(50%, 50%);
    border-radius: 30px;
    
   
 
 }
+
 .title1{
     font-size: 46px;
     text-shadow: 1px -1px 16px white;
@@ -79,37 +82,40 @@ padding-top: 40px;
   
 }
 .ling{
-right: 0;
-width: 800px;
-height: 260px;
-background-color: #1175F0;
+    
+    width: 300px;
+    top: 1100px;
+    height: 40px;
+    background-color: #1175F0;
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transform: translateX(50%, 50%);
+    color: white;
+  
+    text-shadow: 1px -1px 16px white;
+    color: white;
+    border-radius: 10px;
+    }
+.carousel{
 position: absolute;
-top:1100px;
-text-align: center;
-margin-bottom: 40px;
-color: white;
-transform: translateX(-50%);
-text-shadow: 1px -1px 16px white;
-color: white;
-border-radius: 10px;
-}
 
+width: 600px;
+top: 1200px;
 
-#boot{
-
-height: 450px;
-width:50px;
+transform: translateX(50%, 50%);
 
 }
 .about{
     position: absolute;
     top:1800px;
-    background-color: #1175F0;
-    height: 110px;
-    width: 400px;
+    
+  
     border-radius: 20px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+
     left: 100px;
 
 }
@@ -118,6 +124,7 @@ width:50px;
     text-shadow: 1px -1px 16px white;
     color: white;
     border-bottom: 3px solid #083770;
+    border-radius: 20px;
     
 }
 .about-content{
@@ -132,6 +139,7 @@ position: relative;
 justify-content: space-around;
 align-items: center;
 left: 0;
+border-radius:20px ;
 
 
 
