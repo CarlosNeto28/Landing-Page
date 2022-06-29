@@ -1,2 +1,2 @@
 # Landing-Page
-Primeira landing page que eu crio para que conheçam um pouco mais sobre mim, ainda não está completa pois adicionarei mais algumas coisas inclusive a responsividade 
+Primeira landing page responsiva que eu criei, essa está sendo para uso pessoal para que conheçam mais sobre mim.
